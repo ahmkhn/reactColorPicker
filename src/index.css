@@ -1,9 +1,22 @@
-.studentDiv{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2em;
-  padding:10px;
-  border:1px solid grey;
-}
-.studentDiv .p{
+*{
   margin:0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(255, 237, 237);
+}
+
+
+.color-picker-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+.color-display{
+  width:300px;
+  height:300px;
+  text-align: center;
+  border-radius:30px;
+}
+.color-heading-2{
+  margin-top:30px;
 }
